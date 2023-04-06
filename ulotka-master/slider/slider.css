@@ -1,0 +1,45 @@
+section.active{
+    display: flex;
+    justify-content: center; 
+}
+
+.testimonial-wrapper{
+    display: flex;
+}
+
+.testimonial__body{
+    margin-right: 3%;
+}
+
+.testimonial__body > div{
+    font-size: larger;
+}
+
+
+.page{
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    section.active{
+        display: block;
+        padding: 0;
+    }
+
+    .page{
+        display: block;
+    }
+
+    .skip{
+        display: none;
+    }
+
+    .testimonials{
+        margin-top: 5%;
+    }
+
+    .testimonial-wrapper{
+        display: block;
+    }
+    
+}
